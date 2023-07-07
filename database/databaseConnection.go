@@ -12,7 +12,7 @@ import (
 
 func DBInstance() *mongo.Client {
 
-	MongoDB := "mongodb+srv://binbomb:LfitLbcGI8CT25NQ@cluster0.vsi7e.gcp.mongodb.net/?retryWrites=true&w=majority"
+	MongoDB := "mongodb+srv://binabomb:LfitLbs$c@GI8CT25NQ@cluster0.vsi7e.gcp.mongodb.net/?retryWraites=true&w=majority"
 	fmt.Println(MongoDB)
 	client, err := mongo.NewClient(options.Client().ApplyURI(MongoDB))
 	if err != nil {
